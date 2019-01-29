@@ -12,7 +12,7 @@ import scipy as spy
 import pandas as pd
 
 input_file = "data.csv"
-fillinfile="nnnaaa.csv"
+fillinfile="empty.csv"
 df = pd.read_csv(input_file, header = 0)
 df_fill=pd.read_csv(fillinfile, header = 0)
 target=['日期', '測項']
