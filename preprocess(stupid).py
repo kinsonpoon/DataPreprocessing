@@ -58,5 +58,5 @@ for num in d:
 #df_fill.loc[(df_fill['Date']==date[0]), 'AMB_TEMP'] = 10
 #print(df_fill)
 print(df_fill)
-df_fill.to_csv("okla.csv", encoding='utf-8', index=True)   
+df_fill.to_csv("output.csv", encoding='utf-8', index=True)   
 print("converted to csv:)")
